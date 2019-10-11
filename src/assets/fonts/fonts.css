@@ -1,0 +1,51 @@
+/* $weight-normal */
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("Inter-Regular.woff2") format("woff2"),
+       url("Inter-Regular.woff") format("woff");
+}
+/* $weight-medium */
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("Inter-Medium.woff2") format("woff2"),
+       url("Inter-Medium.woff") format("woff");
+}
+/* $weight-semibold */
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  src: url("Inter-SemiBold.woff2") format("woff2"),
+       url("Inter-SemiBold.woff") format("woff");
+}
+/* $weight-bold */
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("Inter-Bold.woff2") format("woff2"),
+       url("Inter-Bold.woff") format("woff");
+}
+/* $weight-extra-bold */
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("Inter-ExtraBold.woff2") format("woff2"),
+       url("Inter-ExtraBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  font-style: normal;
+  font-named-instance: 'Regular';
+  src: url('BarlowSemiCondensed-Regular.eot'); /* IE9 Compat Modes */
+  src: url('BarlowSemiCondensed-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('BarlowSemiCondensed-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('BarlowSemiCondensed-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('BarlowSemiCondensed-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
